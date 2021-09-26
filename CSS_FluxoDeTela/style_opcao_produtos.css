@@ -1,0 +1,92 @@
+/* NÃO ALTERAR */
+html{
+    width: 100%;
+    height: 100%;
+}
+.nameapp{
+    font-size:4em;
+    text-align: center;
+    background-color: black;
+    color: orangered;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+     
+}
+
+.supermercado{
+    font-size:2.7em;
+    text-align: left;
+    color: orangered;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid black; 
+    align-self: left;
+    justify-content: left;
+
+}
+.maps{
+    text-align: right;
+    margin: 10px 30px;
+    border: 1px solid whitesmoke; 
+}
+.stars{
+    text-align: left;
+    margin: 10px;
+    border: 1px;
+}
+.avaliacao{
+    text-align: left;
+    margin: 10px;
+    padding: 1px 10px;
+    border: 0px solid black;
+    background-color: orangered;
+    color: black; 
+}
+.categoria{
+    font-size:1.5em;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid orangered;
+    background-color: azure;
+    color:black; 
+}
+.produto{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 3px dotted black;
+    background-color: orangered;
+    color: white; 
+}
+.pontos{
+    text-align: center;
+    margin: 10px 0px ;
+    padding: 10px;
+    border: 10px;
+    color: orangered; 
+}
+.money{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 3px dotted black;
+    background-color: orangered;
+    color: white; 
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+}
+
+/* NÃO ALTERAR */
