@@ -1,34 +1,38 @@
 /* NÃO ALTERAR */
-
-.itemP {
-    height: 100px;
-    width: 100px;
-    background-color: cadetblue;
+.nameapp{
+    font-size:4em;
+    text-align: center;
+    background-color: black;
+    color: orangered;
     margin: 10px;
+    padding: 10px;
+    border: 10px; 
 }
-
-.itemM {
-    height: 220px;
-    width: 220px;
-    background-color: gold;
+.stars{
+    font-size:4em;
     margin: 10px;
+    border: 1px;
 }
-
-.itemG {
-    height: 460px;
-    width: 460px;
-    background-color: crimson;
+.produto{
+    font-size:2em;
     margin: 10px;
+    padding: 10px 30px;
+    border: 3px solid orangered;
+    border-radius: .5rem;
+    background-color: azure;
+    color:black; 
 }
-
 .coluna {
     display: flex;
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .linha {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 /* NÃO ALTERAR */

@@ -1,4 +1,8 @@
 /* NÃO ALTERAR */
+html{
+    width: 100%;
+    height: 100%;
+}
 .nameapp{
     font-size:4em;
     text-align: center;
@@ -6,7 +10,8 @@
     color: orangered;
     margin: 10px;
     padding: 10px;
-    border: 10px; 
+    border: 10px;
+     
 }
 
 .supermercado{
@@ -16,6 +21,9 @@
     margin: 10px;
     padding: 10px;
     border: 10px solid black; 
+    align-self: left;
+    justify-content: left;
+
 }
 .maps{
     text-align: right;
@@ -70,11 +78,15 @@
 .coluna {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .linha {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content:left;
 }
 
 /* NÃO ALTERAR */
