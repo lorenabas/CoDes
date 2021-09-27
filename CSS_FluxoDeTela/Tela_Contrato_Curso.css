@@ -55,6 +55,7 @@ a{
 }
 .produto{
     padding: 1rem;
+    margin: 1rem;
     border: .2rem solid black;
     border-radius: .5rem;
 }
@@ -73,9 +74,5 @@ footer{
 }
 .coluna {
     display: flex;
-    border: .1rem solid black;
-    border-radius: .5rem;
-    padding: 1rem 4rem 1rem 1rem;
-    margin: 2rem;
     flex-direction: column;
 }
