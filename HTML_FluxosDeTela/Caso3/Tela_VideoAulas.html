@@ -2,38 +2,54 @@
 <html lang="pt-BR">
     <head>
         <title>Video Aulas</title>
+        <link rel="stylesheet" href="../../CSS_FluxoDeTela/reset.css">
+        <link href="../../CSS_FluxoDeTela/tela_css_VideoAulas.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
+        <div class="botão">
+            <img src = "../../Imagens/botão de menu.png" height="30" alt="menu">
+        </div>
+
     </head>
     <body>
         <h1>
             IMarket
         </h1>
 
-        <video width = "500" height = "320" controls>
-            <source src= "../../vid/conceitos.mp4" type= "video/mp4">
-            Seu navegador não suporta a tag video.
-        </video>
+            <video class="video" controls>
+                <source src= "../../vid/conceitos.mp4" type= "video/mp4">
+                Seu navegador não suporta a tag video.
+            </video>
 
+        <div class="conteudo">
 
+            <div class="aula">
 
-        <h3>
-            Aula 1 ______________________________ 1:05:23
-        </h3>
-        <h4>Atendimento de idosos</h4>
-        <ul>
-            <li><a href="">PDF</a></li>
-        </ul>
+                <h5>Aula 1</h5>
 
-        <h2>________________________________</h2>
+                <!-- <h3>1:05:23</h3> -->
 
-        <h2>Quiz</h2>
+                <h3>Atendimento de idosos</h3>
 
-        <h3>
-            1. Como solicitar a um idoso para ceder sua vez a um cliente?
-        </h3>
-        <ul>
-            <li>Grite</li>
-            <li>Peça com gentileza</li>
-        </ul>
+                <li><a href="">PDF</a></li>
+
+            </div>
+
+            <hr/>
+
+            <div class="quiz">
+                <h2>Quiz</h2>
+    
+                <h3>
+                    1. Como solicitar a um idoso para ceder sua vez a um cliente?
+                </h3>
+                <!-- <ul> -->
+                    <li>a) Grite</li>
+                    <li>b) Peça com gentileza</li>
+                <!-- </ul> -->
+            </div>
+
+        </div>
+
     </body>
 </html>
