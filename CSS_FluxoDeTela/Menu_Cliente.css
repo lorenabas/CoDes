@@ -28,9 +28,11 @@ header{
     align-items: center;
     height: 4rem;
     font-size:4.5rem;
-    background-color: orangered;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
     border-bottom: .01rem solid black;
     box-shadow: 0px 0px 5px gray;
+    color: rgb(170, 230, 70)
 }
 .imagem{
     position:absolute;
@@ -45,9 +47,11 @@ main{
     display: flex;
     height: 84.7%;
     flex-direction: column;
+    background-color: white;
 }
 
 p{
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
 }
 
@@ -60,7 +64,9 @@ a{
     background-size: 3rem 3rem;
     background-repeat: no-repeat;
     background-position: 1rem;
+    background-color: rgb(170, 230, 70);
     font-size: 2rem;
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
     border-radius: .5rem;
     align-content: center;
@@ -74,7 +80,11 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items:end;
-    background-color: orangered;
+    background-color: rgb(170, 230, 70);
     height: 3rem;
     box-shadow: 0px 0px 5px 0px gray;
 }
+
+/*font-family: 'Playfair Display', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Benne', serif;*/
