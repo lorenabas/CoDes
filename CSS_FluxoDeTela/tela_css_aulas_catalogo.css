@@ -4,14 +4,15 @@ html,body{
 }
 h1{
     background-color: white;
-    border-bottom: 2px;
+    border-bottom: 0.2rem;
     border-style: solid;  
     border-color: black;
     display: flex;
-    flex-direction: line;
     justify-content: center;
     font-size: 3rem;
+    background-color: orangered;
 }
+
 
 .botão{
     padding: 0.5rem 0rem 0rem 0.5rem;
