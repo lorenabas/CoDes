@@ -12,13 +12,13 @@ h1{
     margin-bottom: 0.7rem ;
     display: flex;
     justify-content: center;
-    font-size: 3rem;
-    background-color: orangered;
-
+    font-size: 3rem;    
+    color: rgb(170, 230, 70);
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 .botão{
-    padding: 0.5rem 0rem 0rem 0.5rem;
     position: fixed;
 }
 
@@ -31,6 +31,10 @@ h1{
     margin: 1%;
     padding: 1rem;
     align-self: center;
+    font-family: 'Playfair Display', serif;
+    border-radius: 0.5rem;
+    border: 0.2rem solid black;
+    background-color: rgb(170, 230, 70);
 }
 
 .lista{
