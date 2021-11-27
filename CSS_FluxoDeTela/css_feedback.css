@@ -1,0 +1,125 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    border-bottom: .01rem solid black;
+    box-shadow: 0px 0px 5px gray;
+    color: rgb(170, 230, 70)
+}
+.imagem{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 4rem;
+    height:4rem;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    height: 84.7%;
+    flex-direction: column;
+    background-color: white;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+
+.ranking1{
+    display: flex;
+    margin: 1rem;
+    border: .2rem solid black;
+    padding: 1rem 1rem 1rem 5rem;
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-color: rgb(170, 230, 70);
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border-radius: .5rem;
+    align-content: center;
+    width:40%;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.ranking2{
+    display: flex;
+    position: relative;
+    margin: 1rem;
+    border: .2rem solid black;
+    padding: 1rem 1rem 1rem 5rem;
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-color: rgb(170, 230, 70);
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border-radius: .5rem;
+    align-content: center;
+    width:40%;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+.comentario1{
+    display: flex;
+    margin: 1rem;
+    border: .2rem solid black;
+    padding: 1rem 1rem 1rem 5rem;
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-color: white;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border-radius: .5rem;
+    align-content: center;
+    width:40%;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.comentario2{
+    display: flex;
+    margin: 1rem;
+    border: .2rem solid black;
+    padding: 1rem 1rem 1rem 5rem;
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-color: white;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border-radius: .5rem;
+    align-content: center;
+    width:40%;
+    align-self: center;
+    justify-content: space-evenly;
+}
