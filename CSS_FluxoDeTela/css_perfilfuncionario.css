@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-size:4.5rem;
+}
+.imagem{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 4rem;
+    height:4rem;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    height: 84.7%;
+    flex-direction: column;
+    background-color: white;
+}
+
+.perfil{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+.foto{
+    justify-content: center;
+    width: 6rem;
+    height:6rem;
+    border-radius: 7rem;
+}
+.paginas{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+.informação{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: gray;
+}
