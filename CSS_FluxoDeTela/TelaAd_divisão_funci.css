@@ -1,0 +1,67 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    background-color: white;
+    border-bottom: 0.2rem;
+    border-style: solid;  
+    border-color: black;
+    padding: 0rem 0rem 0rem 0rem;
+    margin-bottom: 0.7rem ;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;    
+    color: rgb(170, 230, 70);
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.botão{
+    position: fixed;
+}
+
+.card{
+    border: 0.2rem solid black;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 40%;
+    margin: 1%;
+    padding: 1rem;
+    align-self: center;
+    font-family: 'Playfair Display', serif;
+    border-radius: 0.5rem;
+    border: 0.2rem solid black;
+    background-color: rgb(170, 230, 70);
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+a{
+    font-size: 2.3rem;
+    text-decoration: none;
+    color: black;
+}
+
+.card a{
+    align-self: center;
+    padding-left: 0.5rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
