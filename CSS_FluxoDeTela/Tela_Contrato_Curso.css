@@ -4,29 +4,37 @@ html {
 body {
     background-color: white;
 }
-header {
+header{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .1rem solid black;
-    font-size: 2rem;
-    background-color: rgb(0,0,0);
-    color: rgb(170,230,70);
+    font-size: 3rem;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+    border-bottom: .01rem solid black;
+    box-shadow: 0px 0px 5px gray;
+    color: rgb(170, 230, 70)
+}
+img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
 }
 a{
     font-size: 2rem;
     text-decoration: none;
 }
-img{
+/* img{
     position: absolute;
     width: 3rem;
     height: 3rem;
     right: 0.55rem;
     top: 1rem;
-}
+} */
 .img1 {
     top: 0;
     left: 0.5rem;

@@ -2,75 +2,81 @@ html,body{
     width: 100%;
     height: 100%;
 }
-h1{
-    background-color: white;
-    border-bottom: 0.2rem;
-    border-style: solid;  
-    border-color: black;
+header{
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 3rem;
     font-size: 3rem;
-    background-color: rgb(0, 0, 0);
-    color: rgb(170, 230, 70);
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+    border-bottom: 0rem solid black;
+    box-shadow: 0px 0px 5px gray;
+    color: rgb(170, 230, 70)
 }
-
 .botão{
-    position: fixed;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
 }
 
 .video{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
+    align-self: center;
+    margin: 1rem 7rem;
+    width: 80%;
+    height: 60%;
 }
 
 
-.conteudo{
-    margin-left: 1.2rem;
-}
-
-.aula ul{
+.quiz{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content:left;
+    padding: 1rem 1.5rem;
+    margin: 0rem 1rem;
     font-family: 'Playfair', serif;
+    font-size: 1.5rem;
+    
 }
 
 h5{
     font-size: 2.5rem;
     font-family: 'Lato', sans-serif;
     color: rgb(240, 133, 44);
+    margin: 1rem;
 }
 
 h3{
     font-size: 1.5rem;
     font-family: 'Playfair', serif;
+    padding: 1rem 0rem;
 }
 
 h2{
     font-size: 1.8rem;
     font-family: 'Lato', sans-serif;
+    padding: 1rem 0rem;
+    
 }
 
-hr{
-    border-style: solid;  
-    border-color: black;
-    border-width: 0.1rem;
-    background-color: black;
-    margin-left: -200%;
-}
+a{
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    text-decoration: none;
+    color: black;
+    border: 0.1rem solid black;
+    
 
+}
 .aula{
     padding: 1%;
     display: flex;
     flex-direction: column;
-}
-
-.quiz{
-    margin-top: 1rem;
-}
-
-ul{
-    font-family: 'Playfair', serif;
+    margin: 0rem 1rem;
 }

@@ -4,40 +4,48 @@ html, main {
 }
 
 body {
-    background-color: white;
+    background-color: greenyellow;
+    
 }
 
-header {
+header{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 3rem;
-    font-size: 2rem;
-    border-bottom: .1rem solid black;
-    background-color: rgb(0,0,0);
-    color: rgb(170,230,70);
+    font-size: 3rem;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+    border-bottom: .01rem solid black;
+    box-shadow: 0px 0px 5px gray;
+    color: rgb(170, 230, 70)
 }
-
+.img1{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+}
 .mercado { 
     font-size: 1.75rem;
 }
 
-.img1 {
+/* .img1 {
     position: absolute;
     width: 2.5rem;
     height: 2.5rem;
     top: .3rem;
     left: 0rem;
-}
+} */
 
-img{
+/* img{
     width: 3rem;
     height: 3rem;
     left: 0.55rem;
     top: 0.3rem;
-}
+} */
 
 .stars{
     display: flex;      
@@ -63,7 +71,7 @@ a {
     flex-direction: column;
     font-size: 1.5rem;
     text-decoration: none;
-    /* position: relative; */
+    margin-left: 1rem;
     padding: 1rem;
     padding-left: 0rem;
     width: 100%;
