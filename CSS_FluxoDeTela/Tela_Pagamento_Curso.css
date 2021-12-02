@@ -1,8 +1,7 @@
-html {
-    font-size: 16px;
-}
-body {
-    background-color: white;
+html,body{
+    height: 100%;
+    width: 100%;
+
 }
 header{
     position: relative;
@@ -17,29 +16,27 @@ header{
     box-shadow: 0px 0px 5px gray;
     color: rgb(170, 230, 70)
 }
-img{
+.img1{
     position:absolute;
     top: 0;
-    left: 0;
+    left: 1.35rem;
     width: 3rem;
     height: 3rem;
 }
 main{
+    height: 86.99%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    
 }
-/* img{
-    position: absolute;
-    width: 2.2rem;
-    height: 2.2rem;
-    right: 0.55rem;
-    top: 0.15rem;
-} */
+
 .pacote{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
     position: relative;
-    margin: 1rem;
+    margin: 3rem ;
     padding: 1rem;
     border: .2rem solid black;
     width: 35%;
@@ -51,21 +48,60 @@ main{
 h2{
     font-size: 1.5rem;
 }
-.img1 {
-    width: 3rem;
-    height: 3rem;
-    right: 0.55rem;
-    top: 1rem;
-    top: 0;
-    left: 0.5rem;
+.inicio{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    position: relative;
+    
+    border-bottom: .2rem solid black;
+    padding: 1rem;
+    padding-left: 0rem;
+    font-family: 'Lato', sans-serif;
+}
+.inicio h1{
+    margin-left: 1.35rem;
 }
 .link{
+    margin-top: 3rem;
     font-size: 1.5rem;
     font-family: 'Lato', sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.link a{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: rgb(170,230,70);
 }
 .dinheiro{
     position: absolute;
     bottom: 0.1rem;
     right: 0.5rem;
     font-size: 1rem;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+footer{
+    position: relative;
+    padding:0.5rem 0rem;
+    padding-left: 1rem;
+    background-color: rgb(170,230,70);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(240,66,56);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    
 }

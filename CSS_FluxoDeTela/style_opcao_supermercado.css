@@ -1,5 +1,5 @@
 /* NÃO ALTERAR */
-body{
+body,html{
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -21,26 +21,22 @@ header{
 .imagem{
     position:absolute;
     top: 0;
-    left: 0;
+    left: 1.35rem;
     width: 3rem;
     height: 3rem;
 }
 main{
-    flex-grow: 1;
+    
+    
     display: flex;
-    height: 84.7%;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
 }
 
-h2{
-    
-    margin:1rem;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
-}
 .mercado{
     display: flex;
-    margin: 1rem;
+    margin-top: 1.5rem;
     border: 0.2rem solid black;
     padding: 1rem 1rem;
     background-size: 3rem;
@@ -53,21 +49,38 @@ h2{
     border-radius: .5rem;
     align-content: center;
     width:40%;
+    height: 100%;
     align-self: center;
     justify-content: space-between;
     align-items: center;
     
 }
 a{
+    margin: 0rem 1rem;
     text-decoration: none;
     color: black;
 }
+.inicio{
+    font-size: 1.5rem;
+    text-decoration: none;
+    position: relative;
+    border-bottom: .2rem solid black;
+    padding: 1rem;
+    padding-left: 0rem;
+    font-family: 'Lato', sans-serif;
+}
+.inicio h1{
+    margin-left: 1.35rem;
+}
 footer{
+    position: relative;
+    margin-top: 1.5rem;
     background-color: rgb(170,230,70);
-    height: 2rem;
+    padding:0.5rem 0rem;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
     color: rgb(240,66,56);
     font-family: 'Lato', sans-serif;
     font-size: 1rem;

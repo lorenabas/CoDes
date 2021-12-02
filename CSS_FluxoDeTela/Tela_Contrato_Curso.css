@@ -1,8 +1,6 @@
-html {
-    font-size: 16px;
-}
-body {
-    background-color: white;
+html,body{
+    height: 100%;
+    width: 100%;
 }
 header{
     position: relative;
@@ -17,40 +15,34 @@ header{
     box-shadow: 0px 0px 5px gray;
     color: rgb(170, 230, 70)
 }
-img{
+
+.img1{
     position:absolute;
     top: 0;
-    left: 0;
+    left: 1.35rem;
     width: 3rem;
     height: 3rem;
 }
-a{
-    font-size: 2rem;
-    text-decoration: none;
-}
-/* img{
-    position: absolute;
-    width: 3rem;
-    height: 3rem;
-    right: 0.55rem;
-    top: 1rem;
-} */
-.img1 {
-    top: 0;
-    left: 0.5rem;
-}
-.img2{
-    top: -0.7rem;
-    right: 1rem;
-}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 86.8%;
+}  
+
 .descricao{
     font-size: 1.5rem;
     text-decoration: none;
     position: relative;
-    margin: 1rem;
-    width: 100%;
-    border-bottom: .1rem solid black;
+    border-bottom: .2rem solid black;
+    padding: 1rem;
+    padding-left: 0rem;
     font-family: 'Lato', sans-serif;
+}
+.descricao h2{
+    margin-left: 1.35rem;
+}
+.descricao h3{
+    margin-left: 1.35rem;
 }
 .pacotes{
     display: flex;
@@ -64,13 +56,38 @@ p{
 .pacote{
     display:block;
     position: relative;
-    margin: 1rem;
+    margin-top: 1.5rem;
     border: .2rem solid black;
     padding: 1rem;
     font-size: 2rem;
-    /* text-decoration: none; */
+    text-decoration: none; 
     border-radius: .5rem;
     width: 35%;
     font-family: 'Lato', sans-serif;
     background-color: rgb(170, 230, 70);
+}
+.pacote a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+footer{
+    position: relative;
+    padding:0.5rem 0rem;
+    padding-left: 1rem;
+    background-color: rgb(170,230,70);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(240,66,56);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    
 }

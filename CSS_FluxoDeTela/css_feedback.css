@@ -1,5 +1,5 @@
 html,body{
-    height: 100%;
+    
     width: 100%;
 }
 
@@ -19,44 +19,44 @@ header{
 .imagem{
     position:absolute;
     top: 0;
-    left: 0;
+    left: 1.35rem;
     width: 3rem;
     height: 3rem;
 }
 
 main{
     display: flex;
-    height: 84.7%;
+    height: 100%;
     flex-direction: column;
     background-color: white;
 
 }
-
-h2{
-    font-family: 'Roboto', sans-serif;
-    align-self:left;
-    margin: 1rem;
-    margin-left: 4.5rem;
-    font-size: 2.5rem;
-    
+.inicio{
+    font-size: 1.5rem;
+    text-decoration: none;
+    position: relative;
+    border-bottom: .2rem solid black;
+    padding: 1rem;
+    padding-left: 0rem;
+    font-family: 'Lato', sans-serif;
 }
-h3{
-    font-family: 'Roboto', sans-serif;
-    align-self: left;
-    font-size: 3rem;
+.inicio h1{
+    margin-left: 1.35rem;
+}
+
+.ranking{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
 }
 .ranking1{
     display: flex;
-    margin: 1rem;
+    flex-direction: row;
+    margin-top: 1rem;
     border: 0.2rem solid black;
     padding: 1rem 0rem;
-    background-size: 3rem;
-    background-repeat: no-repeat;
-    background-position: 1rem;
     background-color: rgb(170, 230, 70);
-    font-size: 1.5rem;
     font-family: 'Lato', sans-serif;
-    text-decoration: none;
     border-radius: .5rem;
     align-content: center;
     width:40%;
@@ -65,45 +65,39 @@ h3{
 }
 .ranking2{
     display: flex;
-    margin: 1rem;
+    flex-direction: row;
+    margin-top: 1rem;
     border: 0.2rem solid black;
     padding: 1rem 0rem ;
-    background-size: 3rem;
-    background-repeat: no-repeat;
-    background-position: 1rem;
     background-color: rgb(170, 230, 70);
-    font-size: 1.5rem;
     font-family: 'Lato', sans-serif;
-    text-decoration: none;
     border-radius: .5rem;
-    align-content: center;
+    align-content: left;
     width:40%;
     align-self: center;
     justify-content: space-evenly;
     
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
 }
 .estrelinhas{
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
 }
-h4{
+
+h2{
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-}
-h6{
-    font-family: 'Roboto', sans-serif;
-    align-self: left;
+    align-self: center;
     margin: 1rem;
+    margin-top: 2.5rem;
     font-size: 2rem;
-    margin-left: 4.5rem;
+    
 }
-.ranking{
-    display: flex;
-    flex-direction: column;
-    justify-content: center
-}
-.feedback{
+
+.comentario{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,18 +105,14 @@ h6{
 .comentario1{
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    margin: 2rem 1rem 0rem 1rem;
     border: 0.2rem solid black;
     padding: 1rem 0rem 1rem 1rem;
-    background-size: 3rem 3rem;
-    background-repeat: no-repeat;
-    background-position: 1rem;
     background-color: white;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     border-radius: .5rem;
-    align-content: center;
     width:40%;
     align-self: center;
     justify-content: center;
@@ -134,22 +124,39 @@ h6{
     margin: 1rem;
     border: 0.2rem solid black;
     padding: 1rem 0rem 1rem 1rem;
-    background-size: 3rem 3rem;
-    background-repeat: no-repeat;
-    background-position: 1rem;
     background-color: white;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     border-radius: .5rem;
-    align-content: center;
     width:40%;
     align-self: center;
     justify-content: space-evenly;
 }
-.feedback p{
-    font-size: 1.2rem;
+.comentario p{
+    font-size: 2rem;
     font-family: 'Playfair Display', serif;
-    padding-top: 0.5rem;
-    align-self: center;
+    align-self: left;
+}
+a{
+    margin: 0rem 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    
+    position: relative;
+    
+    padding:0.5rem;
+    padding-left: 1rem;
+    background-color: rgb(170,230,70);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    color: rgb(240,66,56);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    
 }
