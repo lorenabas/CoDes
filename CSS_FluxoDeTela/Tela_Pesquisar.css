@@ -51,16 +51,18 @@ a{
     align-self: center;
     width: 2rem;
     margin-right: 1.5rem;
+
 }
-.bolinha{
-    /* display: flex;
-    flex-direction: column-reverse;
-    position: relative; */
-    /* right: 2rem; */
+.bolinha1, .bolinha2, .bolinha3, .bolinha4, .bolinha5, .bolinha6, .bolinha7, .bolinha8, .bolinha9, .bolinha10{
+    
     height: 1rem;
     width: 1rem;
+    border: .15rem solid rgb(56, 56, 56);
     border-radius: 50%;
+    
 }
+
+
 main{
     flex-grow: 1;
     display: flex;
