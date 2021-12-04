@@ -35,7 +35,6 @@ header{
 main{
     display: flex;
     flex-direction: column;
-    height: 93%;
     width: 100%;
     padding-left: 1rem;
 }

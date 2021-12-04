@@ -81,6 +81,15 @@ header{
     border: 0.2rem solid rgb(240,133,44);
     border-radius: 0.5rem;
 }
+.bebidas{
+    background-color: "white";
+}
+.frutas{
+    background-color: "white";
+}
+.carnes{
+    background-color: rgb(240,133,44);
+}
 .conexao p{
 
     margin: 0.5rem;
