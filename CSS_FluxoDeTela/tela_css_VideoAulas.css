@@ -11,7 +11,6 @@ header{
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
     background-color: black;
-    border-bottom: 0rem solid black;
     box-shadow: 0px 0px 5px gray;
     color: rgb(170, 230, 70)
 }
@@ -28,7 +27,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    margin: 1rem 1rem;
+    margin: 1rem 0rem;
     width: 60%;
     height: 60%;
 }
@@ -36,16 +35,17 @@ header{
 main{
     display: flex;
     flex-direction: column;
+    height: 93%;
     width: 100%;
-    margin-left: 1rem;
+    padding-left: 1rem;
 }
 .quiz{
     display: flex;
     flex-direction: column;
     justify-content:left;
-    font-family: 'Playfair', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
-    margin: 1rem 1.5rem;
+    margin: 1rem 1rem 1rem 0rem;
     
 }
 
@@ -57,18 +57,19 @@ h5{
 
 h3{
     font-size: 1.5rem;
-    font-family: 'Playfair', serif;
-    margin: 1rem 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem 0rem 1rem 1rem;
 }
 
 h2{
     font-size: 1.8rem;
     font-family: 'Lato', sans-serif;
-    margin: 1rem 1.5rem;
+    margin: 1rem 0rem 1rem 1rem;
 }
 ul{
-    font-size: 1.5rem;
-    margin: 1rem 1.5rem;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+    margin: 1rem 0rem 1rem 1rem;
 }
 li a{
     padding: 0.2rem;
@@ -85,7 +86,7 @@ li a{
     align-items: center;
 }
 footer a{
-    margin: 0rem 1rem;
+    padding: 0rem 1rem;
     text-decoration: none;
     color: black;
 }
@@ -93,7 +94,6 @@ footer{
     
     position: relative;
     padding:0.5rem 0rem;
-    padding-left: 1rem;
     background-color: rgb(170,230,70);
     display: flex;
     flex-direction: row;
