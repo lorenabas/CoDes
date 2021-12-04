@@ -51,6 +51,7 @@ main{
     align-items: center;
 }
 p{
+    font-family: 'Playfair Display', serif;
     font-size: 1rem;
 }
 .pacote{

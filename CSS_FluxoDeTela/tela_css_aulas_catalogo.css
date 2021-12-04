@@ -37,6 +37,7 @@ main{
     justify-content: space-between;
 }
 a{
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
     color: black;
 }
