@@ -1,0 +1,98 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    border-bottom: .01rem solid black;
+    box-shadow: 0px 0px 5px gray;
+    color: rgb(170, 230, 70);
+}
+
+.botão{
+    position:absolute;
+    top: 0;
+    left: 1.35rem;
+    width: 3rem;
+    height: 3rem;
+}
+main{
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    height: auto;
+    width: auto;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    border-radius: 1rem;
+    background-color: rgb(170, 230, 70);
+}
+
+h2{
+
+    height: 3rem;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    font-size: 2.3rem;
+    align-self: center;
+}
+
+form{
+    
+    flex-direction: column; 
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    align-self: center;
+    margin: 2rem;
+
+}
+label{
+    margin: 1rem 0rem;
+}
+input{
+    align-self: right;
+    border: 0.1rem solid black;
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+    margin: 0.2rem 0rem 1rem 0rem;
+
+}
+p{
+    flex-direction: row; 
+    margin: 0rem 1rem 1rem 1rem;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(240,133,44);
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    margin: 0rem 0.5rem;
+    box-shadow: 0rem 0rem 0.1rem black;
+
+}
+.login{
+    display: flex;
+    flex-direction: column; 
+    background-color: white;
+    justify-content:center;
+    align-self: center;
+    margin:0rem 2rem 2rem 0rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 3px gray;
+
+    border-radius: 1rem;
+}
