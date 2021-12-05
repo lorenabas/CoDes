@@ -84,7 +84,7 @@ header{
 .bebidas{
     background-color: "white";
 }
-.frutas{
+.bebidas{
     background-color: "white";
 }
 .carnes{
@@ -129,8 +129,7 @@ header{
     color:black; 
     font-family: 'Lato', sans-serif;
 }
-.produto,.money
-{
+.produto1, .money1, .produto2, .money2, .produto3, .money3, .produto4, .money4{
     width: 30%;
     font-size:1rem;
     text-align: center;
