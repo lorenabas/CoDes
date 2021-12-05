@@ -43,6 +43,9 @@ main{
 }
 .descricao h3{
     margin-left: 1.35rem;
+    font-size: 1.2rem;
+    color: gray;
+    margin-top: .5rem;
 }
 .pacotes{
     display: flex;

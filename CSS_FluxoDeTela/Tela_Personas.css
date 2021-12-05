@@ -79,6 +79,11 @@ a{
     color: black;
 }
 
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
 footer{
     
     position: relative;
@@ -91,8 +96,5 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     /* align-items:flex-end; */
-    color: rgb(240,66,56);
-    font-family: 'Lato', sans-serif;
-    font-size: 1rem;
-    
+    font-family: 'Lato', sans-serif;    
 }
