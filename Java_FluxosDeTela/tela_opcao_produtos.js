@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
     Fruta = document.querySelector(".frutas");
     Select2 = false
 
-
     Carnes.addEventListener("click", function(evento){
         
         Carnes.style.backgroundColor = "#F0852C"
@@ -33,8 +32,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector(".money3").innerHTML = "R$ 70,00"
         document.querySelector(".money4").innerHTML = "R$ 9,00" 
     })
-
-
 
     Bebida.addEventListener("click", function(evento){
 
