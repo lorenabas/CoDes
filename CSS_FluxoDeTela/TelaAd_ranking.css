@@ -7,7 +7,7 @@ body {
     background-color: white;
 }
 .inicio h1{
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
 header{
     position: relative;
@@ -105,25 +105,23 @@ img{
 }
 
 footer{
-    
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left:0;
-    padding:0rem 1rem;
+    position: relative;
+    margin-top: 0.75rem;
     background-color: rgb(170,230,70);
+    padding:0.5rem 0rem;
     height: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items:flex-end;
     align-items: center;
-    /* align-items:flex-end; */
     font-family: 'Lato', sans-serif;
     
     
 }
 footer a{
-        text-decoration: none;
-        color: black;
-        font-size: 1rem;
+    margin: 0rem 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.15rem;
 }

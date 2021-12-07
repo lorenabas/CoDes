@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
         }
         else{
             login.style.backgroundColor = "#F0842C"
+    
         }
         evento.preventDefault()
     })
@@ -21,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function(){
         Selecionar = !Selecionar
         if(Selecionar){
             this.style.backgroundColor = "white"
+
         }
         else{
             login.style.backgroundColor = "#F0842C"
