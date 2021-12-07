@@ -50,7 +50,7 @@ main a{
     flex-direction: column;
     width: 30%;
     padding: 1rem;
-    margin:1rem ;
+    margin:0.5rem 0rem;
     font-family: 'Playfair Display', serif;
     border-radius: 0.5rem;
     border: 0.2rem solid black;
@@ -75,6 +75,8 @@ main a{
 h2{
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
 }
 footer{
     position: relative;

@@ -100,12 +100,12 @@ header{
 .maps{
     width: 3rem;
     height: 3rem;    
-    margin: 1rem 3rem;
+    margin: 0.5rem 0rem;
     
 }
 .stars{
     font-size: 2rem;
-    margin: 1rem;
+    margin: 0.5rem 1rem;
 }
 
 
