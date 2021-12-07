@@ -1,15 +1,17 @@
 document.addEventListener('DOMContentLoaded', function(){
-    login = document.querySelector("botlog");
+    login = document.querySelector(".botlog");
     Selecionar = false;
-
+    console.log(login)
     login.addEventListener("mouseover", function(evento){
+        console.log('1')
         Selecionar = !Selecionar
         if(Selecionar){
-            login.style.background.color = "white"
+            this.style.backgroundColor = "white"
         }
         else{
-            login.style.background.color = "#F0842C"
+            login.style.backgroundColor = "#F0842C"
         }
+        evento.preventDefault()
     })
     
     cadastrar = document.querySelector(".botcad")
@@ -18,10 +20,10 @@ document.addEventListener('DOMContentLoaded', function(){
     cadastrar.addEventListener("mouseover", function(evento){
         Select = !Select
         if(Select){
-            cadastrar.style.background.color = "white"
+            cadastrar.style.backgroundColor = "white"
         }
         else{
-            cadastrar.style.background.color = "#F0842C"
+            cadastrar.style.backgroundColor = "#F0842C"
         }
     })
 

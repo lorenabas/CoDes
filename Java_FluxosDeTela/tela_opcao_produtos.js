@@ -1,75 +1,69 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    Prod1 = document.querySelector(".produto1");
-    Prod2 = document.querySelector(".produto2");
-    Prod3 = document.querySelector(".produto3");
-    Prod4 = document.querySelector(".produto4");
-    Pric1 = document.querySelector(".money1");
-    Pric2 = document.querySelector(".money2");
-    Pric3 = document.querySelector(".money3");
-    Pric4 = document.querySelector(".money4");
+    Prod1 = document.querySelector(".produto1").innerHTML;
+    Prod2 = document.querySelector(".produto2").innerHTML;
+    Prod3 = document.querySelector(".produto3").innerHTML;
+    Prod4 = document.querySelector(".produto4").innerHTML;
+    Pric1 = document.querySelector(".money1").innerHTML;
+    Pric2 = document.querySelector(".money2").innerHTML;
+    Pric3 = document.querySelector(".money3").innerHTML;
+    Pric4 = document.querySelector(".money4").innerHTML;
 
-
-    Carne = document.querySelector(".carnes");
+    console.log(Prod1)
+    Carnes = document.querySelector(".carnes");
     Select = false
-
-    Carnes.addEventListener("click", function(evento){
-        Select = !Select;
-        if (Select){
-            Carnes.style.background.color = "white"
-        }
-        else{
-            Carnes.style.background.color = "#F0852C"
-            Prod1 = "Frango"
-            Prod2 = "Alcatra"
-            Prod3 = "Picanha"
-            Prod4 = "Salsicha"
-            Pric1 = "R$ 13,00"
-            Pric2 = "R$ 32,00"
-            Pric3 = "R$ 70,00"
-            Pric4 = "R$ 9,00"
-        }
-    })
-
     Bebida = document.querySelector(".bebidas");
     Select1 = false
-
-    Bebida.addEventListener("click", function(evento){
-        Select1 = !Select1;
-        if (Select1){
-            Bebida.style.background = "#F0852C"
-            Prod1 = "Água"
-            Prod2 = "Coca-Cola"
-            Prod3 = "Suco de Laranja"
-            Prod4 = "Suco de Uva"
-            Pric1 = "R$ 4,00"
-            Pric2 = "R$ 4,59"
-            Pric3 = "R$ 7,49"
-            Pric4 = "R$ 8,49"
-        }  
-        else{
-            Bebida.style.background = "white"
-        }
-    })
-
+    
     Fruta = document.querySelector(".frutas");
     Select2 = false
 
+
+    Carnes.addEventListener("click", function(evento){
+        
+        Carnes.style.backgroundColor = "#F0852C"
+        Bebida.style.backgroundColor = 'white'
+        Fruta.style.background = "white"
+        document.querySelector(".produto1").innerHTML = "Frango"
+        document.querySelector(".produto2").innerHTML = "Alcatra"
+        document.querySelector(".produto3").innerHTML = "Picanha"
+        document.querySelector(".produto4").innerHTML = "Salsicha"
+        document.querySelector(".money1").innerHTML = "R$ 13,00"
+        document.querySelector(".money2").innerHTML = "R$ 32,00"
+        document.querySelector(".money3").innerHTML = "R$ 70,00"
+        document.querySelector(".money4").innerHTML = "R$ 9,00" 
+    })
+
+
+
+    Bebida.addEventListener("click", function(evento){
+
+        console.log(Prod1)
+        Carnes.style.backgroundColor = "white"
+        Bebida.style.backgroundColor = '#F0852C'
+        Fruta.style.background = "white"    
+        document.querySelector(".produto1").innerHTML = "Água"
+        document.querySelector(".produto2").innerHTML = "Coca-Cola"
+        document.querySelector(".produto3").innerHTML = "Suco de Laranja"
+        document.querySelector(".produto4").innerHTML = "Suco de Uva"
+        document.querySelector(".money1").innerHTML = "R$ 4,00"
+        document.querySelector(".money2").innerHTML = "R$ 4,59"
+        document.querySelector(".money3").innerHTML = "R$ 7,49"
+        document.querySelector(".money4").innerHTML = "R$ 8,49" 
+    })
+
     Fruta.addEventListener("click", function(evento){
-        Select2 = !Select2;
-        if (Select2){
-            Fruta.style.background = "#F0852C"
-            Prod1 = "Laranja"
-            Prod2 = "Mamão"
-            Prod3 = "Maçã"
-            Prod4 = "Banana"
-            Pric1 = "R$ 2,99/kg"
-            Pric2 = "R$ 9,49/kg"
-            Pric3 = "R$ 5,99/kg"
-            Pric4 = "R$ 4,79"
-        }
-        else{
-            Fruta.style.background = "#white"
-        }
+
+        Carnes.style.backgroundColor = "white"
+        Bebida.style.backgroundColor = 'white'
+        Fruta.style.background = "#F0852C"
+        document.querySelector(".produto1").innerHTML = "Laranja"
+        document.querySelector(".produto2").innerHTML = "Mamão"
+        document.querySelector(".produto3").innerHTML = "Maçã"
+        document.querySelector(".produto4").innerHTML = "Banana"
+        document.querySelector(".money1").innerHTML = "R$ 2,99/kg"
+        document.querySelector(".money2").innerHTML = "R$ 9,49/kg"
+        document.querySelector(".money3").innerHTML = "R$ 5,99/kg"
+        document.querySelector(".money4").innerHTML = "R$ 4,79/kg"   
     })
 })
