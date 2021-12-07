@@ -40,7 +40,7 @@ img{
     height: 3rem;
 }
 
-a{
+.abas a{
     font-size: 2rem;
     text-decoration: none;
     color: black;
@@ -102,4 +102,28 @@ a{
     display: flex;
     flex-direction: column;
     margin: .4rem 0rem .4rem 1.75rem;
+}
+
+footer{
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left:0;
+    padding:0rem 1rem;
+    background-color: rgb(170,230,70);
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items:flex-end; */
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+footer a{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
 }

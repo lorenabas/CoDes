@@ -81,7 +81,7 @@ li{
 .inicio h1{
     margin-left: 1.35rem;
 }
-a{
+main a{
     margin: 0rem 1rem;
     text-decoration: none;
     color: black;
@@ -89,19 +89,25 @@ a{
 
 footer{
     
-    position: relative;
-    margin-top: 1.5rem;
-    padding:0.5rem 0rem;
-    padding-left: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left:0;
+    padding:0rem 1rem;
     background-color: rgb(170,230,70);
-    
+    height: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     /* align-items:flex-end; */
-    color: rgb(240,66,56);
     font-family: 'Lato', sans-serif;
-    font-size: 1rem;
     
+    
+}
+footer a{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
 }
 

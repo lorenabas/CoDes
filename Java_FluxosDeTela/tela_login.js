@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
     login = document.querySelector("botlog");
-    cadastrar = document.querySelector(".botcad")
     Selecionar = false;
-    Select = false;
 
     login.addEventListener("mouseover", function(evento){
         Selecionar = !Selecionar
@@ -13,6 +11,9 @@ document.addEventListener('DOMContentLoaded', function(){
             login.style.background.color = "#F0842C"
         }
     })
+    
+    cadastrar = document.querySelector(".botcad")
+    Select = false;
 
     cadastrar.addEventListener("mouseover", function(evento){
         Select = !Select

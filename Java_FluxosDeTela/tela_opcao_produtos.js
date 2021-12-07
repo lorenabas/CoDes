@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    Prod1 = document.querySelector(".conexao .produto1");
-    Prod2 = document.querySelector(".conexao .produto2");
-    Prod3 = document.querySelector(".conexao .produto3");
-    Prod4 = document.querySelector(".conexao .produto4");
-    Pric1 = document.querySelector(".conexao .money1");
-    Pric2 = document.querySelector(".conexao .money2");
-    Pric3 = document.querySelector(".conexao .money3");
-    Pric4 = document.querySelector(".conexao .money4");
+    Prod1 = document.querySelector(".produto1");
+    Prod2 = document.querySelector(".produto2");
+    Prod3 = document.querySelector(".produto3");
+    Prod4 = document.querySelector(".produto4");
+    Pric1 = document.querySelector(".money1");
+    Pric2 = document.querySelector(".money2");
+    Pric3 = document.querySelector(".money3");
+    Pric4 = document.querySelector(".money4");
 
 
-    Carne = document.querySelector(".categorias .carnes");
+    Carne = document.querySelector(".carnes");
     Select = false
 
     Carnes.addEventListener("click", function(evento){
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     })
 
-    Bebida = document.querySelector(".categorias .bebidas");
+    Bebida = document.querySelector(".bebidas");
     Select1 = false
 
     Bebida.addEventListener("click", function(evento){

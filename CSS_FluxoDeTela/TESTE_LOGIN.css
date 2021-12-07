@@ -81,8 +81,6 @@ a{
     border-radius: 0.5rem;
     padding: 0.8rem;
     margin: 0rem 0.5rem;
-    box-shadow: 0rem 0rem 0.1rem black;
-
 }
 .login{
     display: flex;
