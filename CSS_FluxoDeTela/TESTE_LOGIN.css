@@ -33,7 +33,7 @@ main{
     margin: 1rem;
     padding: 1rem;
     align-items: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lato', sans-serif;
     border-radius: 1rem;
     background-color: rgb(170, 230, 70);
 }
