@@ -90,10 +90,10 @@ img{
 }
 
 .star{
-    position: none;
+    /* position: none; */
     width: 25px;
     height: 25px;
-    left: none;     
+    /* left: none;      */
     margin: 1px;
     top: 25px;
 }

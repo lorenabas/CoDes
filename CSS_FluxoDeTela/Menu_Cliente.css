@@ -51,7 +51,7 @@ main{
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     border-radius: .5rem;
-    align-content: left;
+    /* align-content: left; */
     width:30%;
     align-self: center;
     justify-content: left;
@@ -71,7 +71,7 @@ main{
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     border-radius: .5rem;
-    align-content: left;
+    /* align-content: left; */
     width:30%;
     align-self: center;
     justify-content: left;
