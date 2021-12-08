@@ -12,7 +12,7 @@ header{
     font-family: 'Roboto', sans-serif;
     background-color: black;
     box-shadow: 0px 0px 5px gray;
-    color: rgb(170, 230, 70)
+    color: rgb(170, 230, 70);
 }
 .botão{
     position:absolute;
@@ -36,7 +36,8 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-left: 1rem;
+    /* margin: 1rem; */
+    /* padding-left: 1rem; */
 }
 .quiz{
     display: flex;
@@ -45,7 +46,7 @@ main{
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     margin: 1rem 1rem 1rem 0rem;
-    
+    padding-left: 1.5rem;    
 }
 
 h5{

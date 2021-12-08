@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     PDF.addEventListener("click", function(evento){
     Selecionado = !Selecionado;
     if(Selecionado){
-        PDF.style.background = "black"
+        PDF.style.backgroundColor = "black"
         PDF.style.color = "white"
         PDF.style.border = "white"
     }

@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
         // Over = true;
         Selecionar = !Selecionar
         if(Selecionar){
-            this.style.backgroundColor = "white"
+            this.style.backgroundColor = "#F2B685"
         }
         else{
             login.style.backgroundColor = "#F0842C"
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function(){
     login.addEventListener("mouseout", function(evento){
         Selecionar = !Selecionar
         if(Selecionar){
-            this.style.backgroundColor = "white"
+            this.style.backgroundColor = "#F2B685"
 
         }
         else{
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function(){
     cadastrar.addEventListener("mouseover", function(evento){
         Select = !Select
         if(Select){
-            cadastrar.style.backgroundColor = "white"
+            cadastrar.style.backgroundColor = "#F2B685"
         }
         else{
             cadastrar.style.backgroundColor = "#F0842C"
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function(){
     cadastrar.addEventListener("mouseout", function(evento){
         Select = !Select
         if(Select){
-            cadastrar.style.backgroundColor = "white"
+            cadastrar.style.backgroundColor = "#F2B685"
         }
         else{
             cadastrar.style.backgroundColor = "#F0842C"
